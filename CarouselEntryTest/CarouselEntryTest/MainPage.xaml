@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CarouselEntryTest.MainPage">
 
-	<CarouselView x:Name="Carousel">
+	<CarouselView x:Name="Carousel" PositionChanged="Carousel_PositionChanged">
 		<CarouselView.ItemTemplate>
 			<DataTemplate>
 				<StackLayout>
